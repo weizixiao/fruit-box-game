@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#173b2d">
+    <meta name="description" content="Fruit Box: clear every apple by selecting groups that add up to 10.">
+    <title>Fruit Box / Open Source Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,700;9..144,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#game" aria-label="Fruit Box game">
+        <span class="brand-mark" aria-hidden="true">10</span>
+        <span><b>FRUIT</b> BOX <em>OPEN SOURCE</em></span>
+      </a>
+      <a class="github-link" href="README.md">README ↗</a>
+    </header>
+
+    <main class="game-page" id="game">
+      <div class="game-shell" aria-label="Fruit Box game">
+        <div class="score-strip">
+          <div><span>Cleared</span><strong id="score">0<small>/170</small></strong></div>
+          <div class="timer-cell"><span>Time left</span><strong id="timer">2:00.0</strong><i><b id="timer-bar"></b></i></div>
+          <div><span>Best</span><strong id="best">0</strong></div>
+        </div>
+        <div class="board-frame">
+          <div class="board" id="board" role="application" tabindex="-1" aria-label="17 column by 10 row apple board" aria-describedby="keyboard-help"></div>
+          <div class="game-overlay" id="overlay">
+            <div class="overlay-badge" aria-hidden="true">Σ10</div>
+            <p class="overlay-kicker">DAILY BOARD</p>
+            <h1 id="overlay-title">Ready?</h1>
+            <p id="overlay-copy">Drag a rectangle around apples whose numbers add up to 10.</p>
+            <button class="primary-button" id="overlay-action" type="button"><span aria-hidden="true">▶</span> Start 120-second round</button>
+          </div>
+        </div>
+        <p class="board-feedback" id="feedback" role="status" aria-live="polite">Start the round to play today's board.</p>
+        <div class="game-controls" aria-label="Game controls">
+          <button id="hint" type="button" disabled><span aria-hidden="true">✦</span> Hint</button>
+          <button id="pause" type="button" disabled><span aria-hidden="true">Ⅱ</span> Pause</button>
+          <button id="reset" type="button"><span aria-hidden="true">↻</span> New board</button>
+          <button id="pale" type="button" aria-pressed="false"><span aria-hidden="true">◐</span> Pale</button>
+          <button id="sound" type="button" aria-pressed="true"><span aria-hidden="true">◖</span> Sound</button>
+        </div>
+        <p class="keyboard-help" id="keyboard-help">Keyboard: arrows move, Shift + arrows extend, Enter clears, Esc cancels.</p>
+      </div>
+    </main>
+
+    <footer class="site-footer"><span>Fruit Box Open Source · HTML + CSS + JavaScript</span><a href="LICENSE">MIT License</a><a href="README.md">README</a></footer>
+    <script src="engine.js?v=4"></script>
+    <script src="app.js?v=4"></script>
+  </body>
+</html>
