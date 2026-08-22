@@ -92,6 +92,14 @@ flowchart LR
 
 静的版の `app.js` は React の状態管理だけを置き換えます。ゲームはクライアント側で決定論的に動作するため、この版はサーバー検証型の競技ではなく、学習、フォーク、静的ホスティングを目的としています。
 
+## Related links
+
+- [Fruit Box online](https://fruitboxgame.com/)
+- [フルーツボックス オンライン](https://fruitboxgame.com/ja)
+- [사과게임 온라인](https://fruitboxgame.com/ko)
+- [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
+- [Open-source repository](https://github.com/weizixiao/fruit-box-game)
+
 ## ライセンス
 
 [MIT](LICENSE)
