@@ -1,6 +1,6 @@
 # Fruit Box Open Source
 
-[English](README.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+[English](https://github.com/weizixiao/fruit-box-game) | [日本語](https://github.com/weizixiao/fruit-box-game/blob/main/README.ja.md) | [한국어](https://github.com/weizixiao/fruit-box-game/blob/main/README.ko.md)
 
 [Play online in English](https://fruitboxgame.com/)
 
@@ -80,6 +80,14 @@ flowchart LR
 ![Solvable board flow](assets/solvable-board-flow.png)
 
 See [docs/ALGORITHM.md](docs/ALGORITHM.md) for the data model, weighted group distribution, prefix-sum placement, timing model, and complexity notes.
+
+## Related links
+
+- [Fruit Box online](https://fruitboxgame.com/)
+- [フルーツボックス オンライン](https://fruitboxgame.com/ja)
+- [사과게임 온라인](https://fruitboxgame.com/ko)
+- [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
+- [Open-source repository](https://github.com/weizixiao/fruit-box-game)
 
 ## Keeping parity with the online game
 

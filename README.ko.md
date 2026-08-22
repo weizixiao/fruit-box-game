@@ -57,7 +57,7 @@ node tests/engine.test.mjs
 
 컨트롤, 선택 규칙, 힌트, 시간 처리에 관한 내용은 [그림으로 보는 플레이 가이드](docs/PLAY_GUIDE.ko.md)를 읽어 보세요.
 
-한국어 원문: [Naver 플레이 글](https://blog.naver.com/fruitboxgame/224360374679)
+한국어 원문: [Naver 플레이 글](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
 
 ## 해답 보장 방식
 
