@@ -81,14 +81,6 @@ flowchart LR
 
 See [docs/ALGORITHM.md](docs/ALGORITHM.md) for the data model, weighted group distribution, prefix-sum placement, timing model, and complexity notes.
 
-## Related links
-
-- [Fruit Box online](https://fruitboxgame.com/)
-- [フルーツボックス オンライン](https://fruitboxgame.com/ja)
-- [사과게임 온라인](https://fruitboxgame.com/ko)
-- [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
-- [Open-source repository](https://github.com/weizixiao/fruit-box-game)
-
 ## Keeping parity with the online game
 
 `engine.js` is a browser-global port of the pure functions in the online `lib/fruit-box-engine.ts`. It keeps the same:
@@ -100,6 +92,14 @@ See [docs/ALGORITHM.md](docs/ALGORITHM.md) for the data model, weighted group di
 5. Strict center-point selection, clearing, hint fallback, and time formatting.
 
 The static `app.js` only replaces the React state orchestration. The game remains client-side and deterministic, so this edition is intended for learning, forks, and static hosting rather than server-verified competitions.
+
+## Related links
+
+- [Fruit Box online](https://fruitboxgame.com/)
+- [フルーツボックス オンライン](https://fruitboxgame.com/ja)
+- [사과게임 온라인](https://fruitboxgame.com/ko)
+- [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
+- [Open-source repository](https://github.com/weizixiao/fruit-box-game)
 
 ## License
 
