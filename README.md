@@ -99,6 +99,7 @@ The static `app.js` only replaces the React state orchestration. The game remain
 - [フルーツボックス オンライン](https://fruitboxgame.com/ja)
 - [사과게임 온라인](https://fruitboxgame.com/ko)
 - [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
+- [Fruit Box: A Practical Analysis of the Sum-10 Puzzle](https://medium.com/@winterscott999/fruit-box-a-practical-analysis-of-the-sum-10-puzzle-303ee5aa60d8)
 - [Open-source repository](https://github.com/weizixiao/fruit-box-game)
 
 ## License
