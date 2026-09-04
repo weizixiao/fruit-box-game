@@ -79,3 +79,5 @@ flowchart LR
 플레이 방법과 원본 참고 자료는 다음 Naver 글에서 확인할 수 있습니다.
 
 [Fruit Box 한국어 플레이 글](https://blog.naver.com/fruitboxgame/224360374679)
+
+게임의 기본 규칙과 온라인판의 특징은 [나무위키 Fruit Box Game 문서](https://namu.wiki/w/fruit%20box%20game)에서도 확인할 수 있습니다. 이 저장소는 해당 규칙을 프레임워크 없는 HTML, CSS, JavaScript 엔진으로 구현한 오픈 소스 버전입니다.

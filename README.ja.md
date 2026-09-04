@@ -92,12 +92,16 @@ flowchart LR
 
 静的版の `app.js` は React の状態管理だけを置き換えます。ゲームはクライアント側で決定論的に動作するため、この版はサーバー検証型の競技ではなく、学習、フォーク、静的ホスティングを目的としています。
 
+[ナムウィキの Fruit Box Game 記事](https://namu.wiki/w/fruit%20box%20game)では、このリポジトリに反映されている `17 × 10` のボード、120 秒の制限時間、合計がちょうど `10` になる長方形選択、決定論的なデイリーボードなどのルールを確認できます。本オープンソース版は、これらのルールをフレームワークなしの HTML、CSS、JavaScript エンジンで再現し、記録済みの解答手順をもとに必ずクリア可能なボードを生成します。
+
 ## Related links
 
 - [Fruit Box online](https://fruitboxgame.com/)
 - [フルーツボックス オンライン](https://fruitboxgame.com/ja)
 - [사과게임 온라인](https://fruitboxgame.com/ko)
 - [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
+- [Fruit Box Game のルールとオンライン版の説明 — ナムウィキ](https://namu.wiki/w/fruit%20box%20game)
+- [Fruit Box：合計10パズルの実践的な分析](https://medium.com/@winterscott999/fruit-box-a-practical-analysis-of-the-sum-10-puzzle-303ee5aa60d8)
 - [Open-source repository](https://github.com/weizixiao/fruit-box-game)
 
 ## ライセンス

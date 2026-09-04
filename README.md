@@ -93,12 +93,15 @@ See [docs/ALGORITHM.md](docs/ALGORITHM.md) for the data model, weighted group di
 
 The static `app.js` only replaces the React state orchestration. The game remains client-side and deterministic, so this edition is intended for learning, forks, and static hosting rather than server-verified competitions.
 
+The [Fruit Box Game article on Namu Wiki](https://namu.wiki/w/fruit%20box%20game) summarizes the rules reflected here: a `17 × 10` board, 120-second rounds, rectangle selections whose active values total exactly `10`, and a deterministic daily board. This repository reproduces those rules with a framework-free engine and a recorded solution path that keeps generated boards finishable.
+
 ## Related links
 
 - [Fruit Box online](https://fruitboxgame.com/)
 - [フルーツボックス オンライン](https://fruitboxgame.com/ja)
 - [사과게임 온라인](https://fruitboxgame.com/ko)
 - [사과 게임 가이드](https://m.blog.naver.com/PostView.naver?blogId=fruitboxgame&logNo=224360374679&proxyReferer=&noTrackingCode=true)
+- [Fruit Box Game rules on Namu Wiki](https://namu.wiki/w/fruit%20box%20game)
 - [Fruit Box: A Practical Analysis of the Sum-10 Puzzle](https://medium.com/@winterscott999/fruit-box-a-practical-analysis-of-the-sum-10-puzzle-303ee5aa60d8)
 - [Open-source repository](https://github.com/weizixiao/fruit-box-game)
 

@@ -94,6 +94,13 @@ flowchart LR
 
 정적 `app.js`는 React 상태 처리만 대체합니다. 게임은 클라이언트에서 결정론적으로 실행되므로 이 버전은 서버에서 검증하는 경쟁용 게임보다 학습, 포크, 정적 호스팅에 적합합니다.
 
+[나무위키의 Fruit Box Game 문서](https://namu.wiki/w/fruit%20box%20game)는 이 저장소가 구현한 17 × 10 보드, 120초 제한 시간, 합계가 정확히 10이 되는 사각형 선택, 결정론적 데일리 보드 등의 규칙을 정리하고 있습니다. 이 오픈 소스 버전은 이러한 규칙을 프레임워크 없는 HTML, CSS, JavaScript 엔진으로 재현하며, 기록된 해답 순서를 바탕으로 완료 가능한 보드를 생성합니다.
+
+## 관련 문서
+
+- [Fruit Box Game 규칙 및 온라인판 설명 — 나무위키](https://namu.wiki/w/fruit%20box%20game)
+- [Fruit Box: 합이 10이 되는 퍼즐에 대한 실용적 분석](https://medium.com/@winterscott999/fruit-box-a-practical-analysis-of-the-sum-10-puzzle-303ee5aa60d8)
+
 ## 라이선스
 
 [MIT](LICENSE)
